@@ -1,0 +1,5 @@
+# depencencies
+**/node_modules
+
+#credentials
+**/cypress.env.json
