@@ -10,4 +10,4 @@
 6. To run tests with preview `npx cypress open`
 
 #Remarks:
-Additionally, GitHub Actions is set up. It will be run after the open or reopen pull request. One of the tests is failing because I've checked if it works correctly.
+Additionally, GitHub Actions is set up. It will be run after the open or reopen pull request.
