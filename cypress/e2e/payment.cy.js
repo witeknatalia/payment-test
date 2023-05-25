@@ -13,8 +13,6 @@ describe('Test failed payment flow', () => {
       .type(Cypress.env('user_password'), {
         log: false
       });
-    cy.get('[data-test="accept-cookies-button"]')
-      .click();
     cy.get('[data-test="auth-login-submit"]')
       .click();
     cy.url({ timeout: 10000 })
